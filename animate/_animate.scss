@@ -1,0 +1,52 @@
+// INDEX OF ANIMATIONS
+// This is a port of Den Eden's Animate.css, converted for SASS.
+// Source: https://daneden.me/animate/
+//
+// @import this index into your project.
+// Comment out categories below to remove them from your project.
+// Or, @import specific partials (e.g. @import "_attention/_bounce.scss";
+// 
+//-----------------------------------------------------------------------
+
+// Always required (Do not remove)
+@import "_properties";
+
+// Attention seekers
+// bounce flash pulse rubberband shake swing tada wobble
+@import "animations/attention-seekers";
+
+// Bouncing entrances
+// bounceIn bounceInDown bounceInUp bounceInLeft bounceInRight
+@import "animations/bouncing-entrances";
+
+// Bouncing exits
+// bounceOut bounceOutDown bounceOutUp bounceOutLeft bounceOutRight
+@import "animations/bouncing-exits";
+
+// Fading entrances
+// fadeIn fadeInUp fadeInDown fadeInLeft fadeInRight fadeInUpBig fadeInDownBig fadeInLeftBig fadeInRightBig
+@import "animations/fading-entrances";
+
+// Fading exits
+// fadeOut fadeOutUp fadeOutDown fadeOutLeft fadeOutRight fadeOutUpBig fadeOutDownBig fadeOutLeftBig fadeOutRightBig
+@import "animations/fading-exits";
+
+// Flippers
+// flip flipInX flipOutX flipInY flipOutY
+@import "animations/flippers";
+
+// Lightspeed
+// lightSpeedIn lightSpeedOut
+@import "animations/lightspeed";
+
+// Rotating entrances
+// rotateIn rotateInDownLeft rotateInDownRight rotateInUpLeft rotateInUpRight
+@import "animations/rotating-entrances";
+
+// Rotating exits
+// rotateOut rotateOutDownLeft rotateOutDownRight rotateOutUpLeft rotateOutUpRight
+@import "animations/rotating-exits";
+
+// Specials
+// hinge rollIn rollOut
+@import "animations/specials";

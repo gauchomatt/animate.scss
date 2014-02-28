@@ -29,7 +29,7 @@
 
 @mixin bounce($duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
 	@include animation-name(bounce);
-  @include duration($duration);
+	@include duration($duration);
 	@include delay($delay);
 	@include function($function);
 	@include fill-mode($fill);
