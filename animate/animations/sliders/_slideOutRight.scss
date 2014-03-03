@@ -1,0 +1,34 @@
+@-webkit-keyframes slideOutRight {
+  0% { -webkit-transform: translateX(0);}
+  100% { -webkit-transform: translateX(2000px); opacity: 0;}
+}
+
+@-moz-keyframes slideOutRight {
+  0% { -moz-transform: translateX(0);}
+  100% { -moz-transform: translateX(2000px); opacity: 0;}
+}
+
+@-ms-keyframes slideOutRight {
+  0% { -ms-transform: translateX(0);}
+  100% { -ms-transform: translateX(2000px); opacity: 0;}
+}
+
+@-o-keyframes slideOutRight {
+  0% { -o-transform: translateX(0);}
+  100% { -o-transform: translateX(2000px); opacity: 0;}
+}
+
+@keyframes slideOutRight {
+  0% { transform: translateX(0);}
+  100% { transform: translateX(2000px); opacity: 0;}
+}
+
+@mixin slideOutRight($duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
+  @include animation-name(slideOutRight);
+  @include function(ease-in);
+  @include duration($duration);
+  @include delay($delay);
+  @include function($function);
+  @include fill-mode($fill);
+  @include visibility($visibility);
+}
