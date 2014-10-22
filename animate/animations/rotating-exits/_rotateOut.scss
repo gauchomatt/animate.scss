@@ -25,9 +25,9 @@
 
 @mixin rotateOut($duration: $durationDefault, $delay: $delayDefault, $function: $functionDefault, $fill: $fillDefault, $visibility: $visibilityDefault) {
 	@include animation-name(rotateOut);
-  @include duration($duration);
-  @include delay($delay);
-  @include function($function);
-  @include fill-mode($fill);
-  @include visibility($visibility);
+	@include duration($duration);
+	@include delay($delay);
+	@include function($function);
+	@include fill-mode($fill);
+	@include visibility($visibility);
 }
